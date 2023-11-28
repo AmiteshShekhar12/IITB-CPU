@@ -1,0 +1,17 @@
+library ieee;
+use ieeee.std_logic_1164.all;
+
+entity Testbench is
+end entity;
+
+architecture struct of Testbench is
+
+	component ALU is
+		port(IP_in, T1_in, T2_in, SE6_in, LS_in: in std_logic_vector(15 downto 0);
+				state:in std_logic_vector(4 downto 0);
+				op_code: in std_logic_vector(3 downto 0);
+				output_c: out std_logic_vector(15 downto 0);
+				ALU_Z: out std_logic);
+	end component;
+
+begin

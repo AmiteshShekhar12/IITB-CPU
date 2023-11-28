@@ -1,0 +1,5269 @@
+|alu
+IP_in[0] => ALU_A.IN1
+IP_in[1] => ALU_A.IN1
+IP_in[2] => ALU_A.IN1
+IP_in[3] => ALU_A.IN1
+IP_in[4] => ALU_A.IN1
+IP_in[5] => ALU_A.IN1
+IP_in[6] => ALU_A.IN1
+IP_in[7] => ALU_A.IN1
+IP_in[8] => ALU_A.IN1
+IP_in[9] => ALU_A.IN1
+IP_in[10] => ALU_A.IN1
+IP_in[11] => ALU_A.IN1
+IP_in[12] => ALU_A.IN1
+IP_in[13] => ALU_A.IN1
+IP_in[14] => ALU_A.IN1
+IP_in[15] => ALU_A.IN1
+T1_in[0] => ALU_A.IN1
+T1_in[1] => ALU_A.IN1
+T1_in[2] => ALU_A.IN1
+T1_in[3] => ALU_A.IN1
+T1_in[4] => ALU_A.IN1
+T1_in[5] => ALU_A.IN1
+T1_in[6] => ALU_A.IN1
+T1_in[7] => ALU_A.IN1
+T1_in[8] => ALU_A.IN1
+T1_in[9] => ALU_A.IN1
+T1_in[10] => ALU_A.IN1
+T1_in[11] => ALU_A.IN1
+T1_in[12] => ALU_A.IN1
+T1_in[13] => ALU_A.IN1
+T1_in[14] => ALU_A.IN1
+T1_in[15] => ALU_A.IN1
+T2_in[0] => ALU_A.IN1
+T2_in[0] => ALU_B.IN1
+T2_in[1] => ALU_A.IN1
+T2_in[1] => ALU_B.IN1
+T2_in[2] => ALU_A.IN1
+T2_in[2] => ALU_B.IN1
+T2_in[3] => ALU_A.IN1
+T2_in[3] => ALU_B.IN1
+T2_in[4] => ALU_A.IN1
+T2_in[4] => ALU_B.IN1
+T2_in[5] => ALU_A.IN1
+T2_in[5] => ALU_B.IN1
+T2_in[6] => ALU_A.IN1
+T2_in[6] => ALU_B.IN1
+T2_in[7] => ALU_A.IN1
+T2_in[7] => ALU_B.IN1
+T2_in[8] => ALU_A.IN1
+T2_in[8] => ALU_B.IN1
+T2_in[9] => ALU_A.IN1
+T2_in[9] => ALU_B.IN1
+T2_in[10] => ALU_A.IN1
+T2_in[10] => ALU_B.IN1
+T2_in[11] => ALU_A.IN1
+T2_in[11] => ALU_B.IN1
+T2_in[12] => ALU_A.IN1
+T2_in[12] => ALU_B.IN1
+T2_in[13] => ALU_A.IN1
+T2_in[13] => ALU_B.IN1
+T2_in[14] => ALU_A.IN1
+T2_in[14] => ALU_B.IN1
+T2_in[15] => ALU_A.IN1
+T2_in[15] => ALU_B.IN1
+SE6_in[0] => ALU_B.IN1
+SE6_in[1] => ALU_B.IN1
+SE6_in[2] => ALU_B.IN1
+SE6_in[3] => ALU_B.IN1
+SE6_in[4] => ALU_B.IN1
+SE6_in[5] => ALU_B.IN1
+SE6_in[6] => ALU_B.IN1
+SE6_in[7] => ALU_B.IN1
+SE6_in[8] => ALU_B.IN1
+SE6_in[9] => ALU_B.IN1
+SE6_in[10] => ALU_B.IN1
+SE6_in[11] => ALU_B.IN1
+SE6_in[12] => ALU_B.IN1
+SE6_in[13] => ALU_B.IN1
+SE6_in[14] => ALU_B.IN1
+SE6_in[15] => ALU_B.IN1
+LS_in[0] => ALU_B.IN1
+LS_in[1] => ALU_B.IN1
+LS_in[2] => ALU_B.IN1
+LS_in[3] => ALU_B.IN1
+LS_in[4] => ALU_B.IN1
+LS_in[5] => ALU_B.IN1
+LS_in[6] => ALU_B.IN1
+LS_in[7] => ALU_B.IN1
+LS_in[8] => ALU_B.IN1
+LS_in[9] => ALU_B.IN1
+LS_in[10] => ALU_B.IN1
+LS_in[11] => ALU_B.IN1
+LS_in[12] => ALU_B.IN1
+LS_in[13] => ALU_B.IN1
+LS_in[14] => ALU_B.IN1
+LS_in[15] => ALU_B.IN1
+state[0] => s1.IN1
+state[0] => s3.IN1
+state[0] => s9.IN1
+state[0] => s13.IN1
+state[0] => s19.IN1
+state[0] => s14.IN1
+state[0] => s16.IN1
+state[1] => s3.IN1
+state[1] => s14.IN1
+state[1] => s19.IN1
+state[1] => s1.IN1
+state[1] => s9.IN1
+state[1] => s16.IN1
+state[1] => s13.IN1
+state[2] => s14.IN1
+state[2] => s1.IN1
+state[2] => s9.IN1
+state[2] => s16.IN1
+state[3] => s9.IN0
+state[3] => s1.IN0
+state[3] => s16.IN0
+state[4] => s16.IN1
+state[4] => s1.IN1
+state[4] => s9.IN1
+op_code[0] => mul_s.IN1
+op_code[0] => or1_s.IN1
+op_code[0] => add_s.IN1
+op_code[0] => sub_s.IN1
+op_code[0] => and1_s.IN1
+op_code[0] => imp_s.IN1
+op_code[1] => sub_s.IN1
+op_code[1] => imp_s.IN1
+op_code[1] => add_s.IN1
+op_code[1] => and1_s.IN1
+op_code[2] => and1_s.IN1
+op_code[2] => add_s.IN1
+op_code[3] => add_s.IN1
+output_c[0] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[1] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[2] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[3] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[4] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[5] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[6] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[7] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[8] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[9] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[10] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[11] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[12] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[13] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[14] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+output_c[15] << ALU_C.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Z << ALU_Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins
+A[0] => fulladder:fa1.A
+A[1] => fulladder:fa2.A
+A[2] => fulladder:fa3.A
+A[3] => fulladder:fa4.A
+A[4] => fulladder:fa5.A
+A[5] => fulladder:fa6.A
+A[6] => fulladder:fa7.A
+A[7] => fulladder:fa8.A
+A[8] => fulladder:fa9.A
+A[9] => fulladder:fa10.A
+A[10] => fulladder:fa11.A
+A[11] => fulladder:fa12.A
+A[12] => fulladder:fa13.A
+A[13] => fulladder:fa14.A
+A[14] => fulladder:fa15.A
+A[15] => fulladder:fa16.A
+B[0] => XOR_2:xor1.A
+B[1] => XOR_2:xor2.A
+B[2] => XOR_2:xor3.A
+B[3] => XOR_2:xor4.A
+B[4] => XOR_2:xor5.A
+B[5] => XOR_2:xor6.A
+B[6] => XOR_2:xor7.A
+B[7] => XOR_2:xor8.A
+B[8] => XOR_2:xor9.A
+B[9] => XOR_2:xor10.A
+B[10] => XOR_2:xor11.A
+B[11] => XOR_2:xor12.A
+B[12] => XOR_2:xor13.A
+B[13] => XOR_2:xor14.A
+B[14] => XOR_2:xor15.A
+B[15] => XOR_2:xor16.A
+M => XOR_2:xor1.B
+M => fulladder:fa1.Cin
+M => XOR_2:xor2.B
+M => XOR_2:xor3.B
+M => XOR_2:xor4.B
+M => XOR_2:xor5.B
+M => XOR_2:xor6.B
+M => XOR_2:xor7.B
+M => XOR_2:xor8.B
+M => XOR_2:xor9.B
+M => XOR_2:xor10.B
+M => XOR_2:xor11.B
+M => XOR_2:xor12.B
+M => XOR_2:xor13.B
+M => XOR_2:xor14.B
+M => XOR_2:xor15.B
+M => XOR_2:xor16.B
+Cout <= fulladder:fa16.carry
+S[0] <= fulladder:fa1.sum
+S[1] <= fulladder:fa2.sum
+S[2] <= fulladder:fa3.sum
+S[3] <= fulladder:fa4.sum
+S[4] <= fulladder:fa5.sum
+S[5] <= fulladder:fa6.sum
+S[6] <= fulladder:fa7.sum
+S[7] <= fulladder:fa8.sum
+S[8] <= fulladder:fa9.sum
+S[9] <= fulladder:fa10.sum
+S[10] <= fulladder:fa11.sum
+S[11] <= fulladder:fa12.sum
+S[12] <= fulladder:fa13.sum
+S[13] <= fulladder:fa14.sum
+S[14] <= fulladder:fa15.sum
+S[15] <= fulladder:fa16.sum
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa1|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa2|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa3|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa4|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa5|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa6|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa7|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor8
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa8|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor9
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa9|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor10
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa10|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor11
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa11|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor12
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa12|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor13
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa13|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor14
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa14|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor15
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa15|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|XOR_2:xor16
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:add_ins|fulladder:fa16|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins
+A[0] => fulladder:fa1.A
+A[1] => fulladder:fa2.A
+A[2] => fulladder:fa3.A
+A[3] => fulladder:fa4.A
+A[4] => fulladder:fa5.A
+A[5] => fulladder:fa6.A
+A[6] => fulladder:fa7.A
+A[7] => fulladder:fa8.A
+A[8] => fulladder:fa9.A
+A[9] => fulladder:fa10.A
+A[10] => fulladder:fa11.A
+A[11] => fulladder:fa12.A
+A[12] => fulladder:fa13.A
+A[13] => fulladder:fa14.A
+A[14] => fulladder:fa15.A
+A[15] => fulladder:fa16.A
+B[0] => XOR_2:xor1.A
+B[1] => XOR_2:xor2.A
+B[2] => XOR_2:xor3.A
+B[3] => XOR_2:xor4.A
+B[4] => XOR_2:xor5.A
+B[5] => XOR_2:xor6.A
+B[6] => XOR_2:xor7.A
+B[7] => XOR_2:xor8.A
+B[8] => XOR_2:xor9.A
+B[9] => XOR_2:xor10.A
+B[10] => XOR_2:xor11.A
+B[11] => XOR_2:xor12.A
+B[12] => XOR_2:xor13.A
+B[13] => XOR_2:xor14.A
+B[14] => XOR_2:xor15.A
+B[15] => XOR_2:xor16.A
+M => XOR_2:xor1.B
+M => fulladder:fa1.Cin
+M => XOR_2:xor2.B
+M => XOR_2:xor3.B
+M => XOR_2:xor4.B
+M => XOR_2:xor5.B
+M => XOR_2:xor6.B
+M => XOR_2:xor7.B
+M => XOR_2:xor8.B
+M => XOR_2:xor9.B
+M => XOR_2:xor10.B
+M => XOR_2:xor11.B
+M => XOR_2:xor12.B
+M => XOR_2:xor13.B
+M => XOR_2:xor14.B
+M => XOR_2:xor15.B
+M => XOR_2:xor16.B
+Cout <= fulladder:fa16.carry
+S[0] <= fulladder:fa1.sum
+S[1] <= fulladder:fa2.sum
+S[2] <= fulladder:fa3.sum
+S[3] <= fulladder:fa4.sum
+S[4] <= fulladder:fa5.sum
+S[5] <= fulladder:fa6.sum
+S[6] <= fulladder:fa7.sum
+S[7] <= fulladder:fa8.sum
+S[8] <= fulladder:fa9.sum
+S[9] <= fulladder:fa10.sum
+S[10] <= fulladder:fa11.sum
+S[11] <= fulladder:fa12.sum
+S[12] <= fulladder:fa13.sum
+S[13] <= fulladder:fa14.sum
+S[14] <= fulladder:fa15.sum
+S[15] <= fulladder:fa16.sum
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa1|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa2|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa3|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa4|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa5|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa6|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa7|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor8
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa8|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor9
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa9|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor10
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa10|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor11
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa11|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor12
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa12|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor13
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa13|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor14
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa14|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor15
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa15|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|XOR_2:xor16
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|add_sub_16:sub_ins|fulladder:fa16|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1
+A[0] => T1[0].IN0
+A[0] => T2[1].IN0
+A[0] => T3[2].IN0
+A[0] => T4[3].IN0
+A[1] => T1[1].IN0
+A[1] => T2[2].IN0
+A[1] => T3[3].IN0
+A[1] => T4[4].IN0
+A[2] => T1[2].IN0
+A[2] => T2[3].IN0
+A[2] => T3[4].IN0
+A[2] => T4[5].IN0
+A[3] => T1[3].IN0
+A[3] => T2[4].IN0
+A[3] => T3[5].IN0
+A[3] => T4[6].IN0
+B[0] => T1[0].IN1
+B[0] => T1[1].IN1
+B[0] => T1[2].IN1
+B[0] => T1[3].IN1
+B[1] => T2[1].IN1
+B[1] => T2[2].IN1
+B[1] => T2[3].IN1
+B[1] => T2[4].IN1
+B[2] => T3[2].IN1
+B[2] => T3[3].IN1
+B[2] => T3[4].IN1
+B[2] => T3[5].IN1
+B[3] => T4[3].IN1
+B[3] => T4[4].IN1
+B[3] => T4[5].IN1
+B[3] => T4[6].IN1
+outp[0] <= add_sub_16:AS3.S[0]
+outp[1] <= add_sub_16:AS3.S[1]
+outp[2] <= add_sub_16:AS3.S[2]
+outp[3] <= add_sub_16:AS3.S[3]
+outp[4] <= add_sub_16:AS3.S[4]
+outp[5] <= add_sub_16:AS3.S[5]
+outp[6] <= add_sub_16:AS3.S[6]
+outp[7] <= add_sub_16:AS3.S[7]
+outp[8] <= add_sub_16:AS3.S[8]
+outp[9] <= add_sub_16:AS3.S[9]
+outp[10] <= add_sub_16:AS3.S[10]
+outp[11] <= add_sub_16:AS3.S[11]
+outp[12] <= add_sub_16:AS3.S[12]
+outp[13] <= add_sub_16:AS3.S[13]
+outp[14] <= add_sub_16:AS3.S[14]
+outp[15] <= add_sub_16:AS3.S[15]
+
+
+|alu|multiplier:m1|add_sub_16:AS1
+A[0] => fulladder:fa1.A
+A[1] => fulladder:fa2.A
+A[2] => fulladder:fa3.A
+A[3] => fulladder:fa4.A
+A[4] => fulladder:fa5.A
+A[5] => fulladder:fa6.A
+A[6] => fulladder:fa7.A
+A[7] => fulladder:fa8.A
+A[8] => fulladder:fa9.A
+A[9] => fulladder:fa10.A
+A[10] => fulladder:fa11.A
+A[11] => fulladder:fa12.A
+A[12] => fulladder:fa13.A
+A[13] => fulladder:fa14.A
+A[14] => fulladder:fa15.A
+A[15] => fulladder:fa16.A
+B[0] => XOR_2:xor1.A
+B[1] => XOR_2:xor2.A
+B[2] => XOR_2:xor3.A
+B[3] => XOR_2:xor4.A
+B[4] => XOR_2:xor5.A
+B[5] => XOR_2:xor6.A
+B[6] => XOR_2:xor7.A
+B[7] => XOR_2:xor8.A
+B[8] => XOR_2:xor9.A
+B[9] => XOR_2:xor10.A
+B[10] => XOR_2:xor11.A
+B[11] => XOR_2:xor12.A
+B[12] => XOR_2:xor13.A
+B[13] => XOR_2:xor14.A
+B[14] => XOR_2:xor15.A
+B[15] => XOR_2:xor16.A
+M => XOR_2:xor1.B
+M => fulladder:fa1.Cin
+M => XOR_2:xor2.B
+M => XOR_2:xor3.B
+M => XOR_2:xor4.B
+M => XOR_2:xor5.B
+M => XOR_2:xor6.B
+M => XOR_2:xor7.B
+M => XOR_2:xor8.B
+M => XOR_2:xor9.B
+M => XOR_2:xor10.B
+M => XOR_2:xor11.B
+M => XOR_2:xor12.B
+M => XOR_2:xor13.B
+M => XOR_2:xor14.B
+M => XOR_2:xor15.B
+M => XOR_2:xor16.B
+Cout <= fulladder:fa16.carry
+S[0] <= fulladder:fa1.sum
+S[1] <= fulladder:fa2.sum
+S[2] <= fulladder:fa3.sum
+S[3] <= fulladder:fa4.sum
+S[4] <= fulladder:fa5.sum
+S[5] <= fulladder:fa6.sum
+S[6] <= fulladder:fa7.sum
+S[7] <= fulladder:fa8.sum
+S[8] <= fulladder:fa9.sum
+S[9] <= fulladder:fa10.sum
+S[10] <= fulladder:fa11.sum
+S[11] <= fulladder:fa12.sum
+S[12] <= fulladder:fa13.sum
+S[13] <= fulladder:fa14.sum
+S[14] <= fulladder:fa15.sum
+S[15] <= fulladder:fa16.sum
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa1|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa2|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa3|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa4|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa5|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa6|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa7|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor8
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa8|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor9
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa9|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor10
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa10|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor11
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa11|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor12
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa12|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor13
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa13|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor14
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa14|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor15
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa15|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|XOR_2:xor16
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS1|fulladder:fa16|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2
+A[0] => fulladder:fa1.A
+A[1] => fulladder:fa2.A
+A[2] => fulladder:fa3.A
+A[3] => fulladder:fa4.A
+A[4] => fulladder:fa5.A
+A[5] => fulladder:fa6.A
+A[6] => fulladder:fa7.A
+A[7] => fulladder:fa8.A
+A[8] => fulladder:fa9.A
+A[9] => fulladder:fa10.A
+A[10] => fulladder:fa11.A
+A[11] => fulladder:fa12.A
+A[12] => fulladder:fa13.A
+A[13] => fulladder:fa14.A
+A[14] => fulladder:fa15.A
+A[15] => fulladder:fa16.A
+B[0] => XOR_2:xor1.A
+B[1] => XOR_2:xor2.A
+B[2] => XOR_2:xor3.A
+B[3] => XOR_2:xor4.A
+B[4] => XOR_2:xor5.A
+B[5] => XOR_2:xor6.A
+B[6] => XOR_2:xor7.A
+B[7] => XOR_2:xor8.A
+B[8] => XOR_2:xor9.A
+B[9] => XOR_2:xor10.A
+B[10] => XOR_2:xor11.A
+B[11] => XOR_2:xor12.A
+B[12] => XOR_2:xor13.A
+B[13] => XOR_2:xor14.A
+B[14] => XOR_2:xor15.A
+B[15] => XOR_2:xor16.A
+M => XOR_2:xor1.B
+M => fulladder:fa1.Cin
+M => XOR_2:xor2.B
+M => XOR_2:xor3.B
+M => XOR_2:xor4.B
+M => XOR_2:xor5.B
+M => XOR_2:xor6.B
+M => XOR_2:xor7.B
+M => XOR_2:xor8.B
+M => XOR_2:xor9.B
+M => XOR_2:xor10.B
+M => XOR_2:xor11.B
+M => XOR_2:xor12.B
+M => XOR_2:xor13.B
+M => XOR_2:xor14.B
+M => XOR_2:xor15.B
+M => XOR_2:xor16.B
+Cout <= fulladder:fa16.carry
+S[0] <= fulladder:fa1.sum
+S[1] <= fulladder:fa2.sum
+S[2] <= fulladder:fa3.sum
+S[3] <= fulladder:fa4.sum
+S[4] <= fulladder:fa5.sum
+S[5] <= fulladder:fa6.sum
+S[6] <= fulladder:fa7.sum
+S[7] <= fulladder:fa8.sum
+S[8] <= fulladder:fa9.sum
+S[9] <= fulladder:fa10.sum
+S[10] <= fulladder:fa11.sum
+S[11] <= fulladder:fa12.sum
+S[12] <= fulladder:fa13.sum
+S[13] <= fulladder:fa14.sum
+S[14] <= fulladder:fa15.sum
+S[15] <= fulladder:fa16.sum
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa1|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa2|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa3|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa4|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa5|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa6|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa7|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor8
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa8|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor9
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa9|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor10
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa10|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor11
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa11|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor12
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa12|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor13
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa13|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor14
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa14|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor15
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa15|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|XOR_2:xor16
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS2|fulladder:fa16|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3
+A[0] => fulladder:fa1.A
+A[1] => fulladder:fa2.A
+A[2] => fulladder:fa3.A
+A[3] => fulladder:fa4.A
+A[4] => fulladder:fa5.A
+A[5] => fulladder:fa6.A
+A[6] => fulladder:fa7.A
+A[7] => fulladder:fa8.A
+A[8] => fulladder:fa9.A
+A[9] => fulladder:fa10.A
+A[10] => fulladder:fa11.A
+A[11] => fulladder:fa12.A
+A[12] => fulladder:fa13.A
+A[13] => fulladder:fa14.A
+A[14] => fulladder:fa15.A
+A[15] => fulladder:fa16.A
+B[0] => XOR_2:xor1.A
+B[1] => XOR_2:xor2.A
+B[2] => XOR_2:xor3.A
+B[3] => XOR_2:xor4.A
+B[4] => XOR_2:xor5.A
+B[5] => XOR_2:xor6.A
+B[6] => XOR_2:xor7.A
+B[7] => XOR_2:xor8.A
+B[8] => XOR_2:xor9.A
+B[9] => XOR_2:xor10.A
+B[10] => XOR_2:xor11.A
+B[11] => XOR_2:xor12.A
+B[12] => XOR_2:xor13.A
+B[13] => XOR_2:xor14.A
+B[14] => XOR_2:xor15.A
+B[15] => XOR_2:xor16.A
+M => XOR_2:xor1.B
+M => fulladder:fa1.Cin
+M => XOR_2:xor2.B
+M => XOR_2:xor3.B
+M => XOR_2:xor4.B
+M => XOR_2:xor5.B
+M => XOR_2:xor6.B
+M => XOR_2:xor7.B
+M => XOR_2:xor8.B
+M => XOR_2:xor9.B
+M => XOR_2:xor10.B
+M => XOR_2:xor11.B
+M => XOR_2:xor12.B
+M => XOR_2:xor13.B
+M => XOR_2:xor14.B
+M => XOR_2:xor15.B
+M => XOR_2:xor16.B
+Cout <= fulladder:fa16.carry
+S[0] <= fulladder:fa1.sum
+S[1] <= fulladder:fa2.sum
+S[2] <= fulladder:fa3.sum
+S[3] <= fulladder:fa4.sum
+S[4] <= fulladder:fa5.sum
+S[5] <= fulladder:fa6.sum
+S[6] <= fulladder:fa7.sum
+S[7] <= fulladder:fa8.sum
+S[8] <= fulladder:fa9.sum
+S[9] <= fulladder:fa10.sum
+S[10] <= fulladder:fa11.sum
+S[11] <= fulladder:fa12.sum
+S[12] <= fulladder:fa13.sum
+S[13] <= fulladder:fa14.sum
+S[14] <= fulladder:fa15.sum
+S[15] <= fulladder:fa16.sum
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa1|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa2|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa3|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa4|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa5|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa6|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa7|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor8
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa8|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor9
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa9|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor10
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa10|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor11
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa11|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor12
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa12|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor13
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa13|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor14
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa14|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor15
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa15|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|XOR_2:xor16
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16
+A => XOR_2:x1.A
+A => NAND_2:a1.A
+B => XOR_2:x1.B
+B => NAND_2:a1.B
+Cin => XOR_2:x2.B
+Cin => NAND_2:a3.B
+sum <= XOR_2:x2.Y
+carry <= OR_2:or1.Y
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16|XOR_2:x1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16|NAND_2:a1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16|NAND_2:a2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16|XOR_2:x2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16|NAND_2:a3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16|NAND_2:a4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|multiplier:m1|add_sub_16:AS3|fulladder:fa16|OR_2:or1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

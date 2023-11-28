@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ALU is
+
+	port(IP_in, T1_in, T2_in, SE6_in, LS_in: in std_logic_vector(15 downto 0);
+			state:in std_logic_vector(4 downto 0);
+			op_code: in std_logic_vector(3 downto 0);
+			output_c: out std_logic_vector(15 downto 0);
+			ALU_Z: out std_logic);
+end entity;
+
+
+architecture struct of ALU is
+
+	signal ALU_A, ALU_B, ALU_C:std_logic_vector(15 downto 0);
+	signal s1,s3,s9,s13,s14,s16,s19:std_logic;
+	signal add, sub, mul, and1, or1, imp: std_logic_vector(15 downto 0);
+
+begin
+
+	s1<=not(state(4)) and not(state(3)) and not(state(2)) and not(state(1)) and state(0);
+	s3<=not(state(4)) and not(state(3)) and not(state(2)) and (state(1)) and state(0);
+	s9<=not(state(4)) and (state(3)) and not(state(2)) and not(state(1)) and state(0);
+	s13<=not(state(4)) and (state(3)) and (state(2)) and not(state(1)) and state(0);
+	s14<=not(state(4)) and (state(3)) and (state(2)) and (state(1)) and not(state(0));
+	s16<=(state(4)) and not(state(3)) and not(state(2)) and not(state(1)) and not(state(0));
+	s19<=(state(4)) and not(state(3)) and not(state(2)) and (state(1)) and state(0);
+	
+	ALU_A<= ((s1 or s14 or s16) and IP_in) or ((s3 or s13 or s19) and T1_in) or (s9 and T2_in);
+	ALU_B<= (s1 and "0000000000000010") or ((s3 or s13) and T2_in) or ((s9 or s19) and SE6_in) or ((s14 or s16) and LS_in);
+	
+end struct;
+	

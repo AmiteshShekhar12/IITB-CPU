@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity add_sub_4 is
+	port(A,B: std_logic_vector(3 downto 0); M: in std_logic; Cout: out std_logic; S: out std_logic_vector(3 downto 0));
+end entity add_sub_4;
+
+architecture struct of add_sub_4 is
+	component fulladder is
+		port(A,B,Cin: in std_logic; sum,carry: out std_logic);
+	end component fulladder;
+	
+	
+	
+	signal bs,cs: std_logic_vector(15 downto 0);
+	
+begin
+
+	xor1: XOR_2 port map(A=>B(0), B=>M, Y=>bs(0));
+	fa1: fulladder port map(A=>A(0), B=>bs(0), Cin=>M, sum=>S(0), carry=>cs(1));
+	xor2: XOR_2 port map(A=>B(1), B=>M, Y=>bs(1));
+	fa2: fulladder port map(A=>A(1), B=>bs(1), Cin=>cs(1), sum=>S(1), carry=>cs(2));
+	xor3: XOR_2 port map(A=>B(2), B=>M, Y=>bs(2));
+	fa3: fulladder port map(A=>A(2), B=>bs(2), Cin=>cs(2), sum=>S(2), carry=>cs(3));
+	xor4: XOR_2 port map(A=>B(3), B=>M, Y=>bs(3));
+	fa4: fulladder port map(A=>A(3), B=>bs(3), Cin=>cs(3), sum=>S(3), carry=>Cout);
+
+end struct;

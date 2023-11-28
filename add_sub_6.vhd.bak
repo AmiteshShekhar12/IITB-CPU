@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity add_sub_6 is
+	port(A5,A4,A3,A2,A1,A0,B5,B4,B3,B2,B1,B0,M: in std_logic; Cout, S5,S4,S3,S2,S1,S0: out std_logic);
+end entity add_sub_6;
+
+architecture struct of add_sub_6 is
+	component full_adder is
+		port(A,B,Cin: in std_logic; sum,carry: out std_logic);
+	end component full_adder;
+	
+	component XOR_using_NAND is
+		port(A,B: in std_logic; Y: out std_logic);
+	end component XOR_using_NAND;
+	
+	signal bs0,bs1,bs2,bs3,bs4,bs5,cs1,cs2,cs3,cs4,cs5: std_logic;
+	
+begin
+
+	xor1: XOR_using_NAND port map(A=>B0, B=>M, Y=>bs0);
+	fa1: full_adder port map(A=>A0, B=>bs0, Cin=>M, sum=>S0, carry=>cs1);
+	xor2: XOR_using_NAND port map(A=>B1, B=>M, Y=>bs1);
+	fa2: full_adder port map(A=>A1, B=>bs1, Cin=>cs1, sum=>S1, carry=>cs2);
+	xor3: XOR_using_NAND port map(A=>B2, B=>M, Y=>bs2);
+	fa3: full_adder port map(A=>A2, B=>bs2, Cin=>cs2, sum=>S2, carry=>cs3);
+	xor4: XOR_using_NAND port map(A=>B3, B=>M, Y=>bs3);
+	fa4: full_adder port map(A=>A3, B=>bs3, Cin=>cs3, sum=>S3, carry=>cs4);
+	xor5: XOR_using_NAND port map(A=>B4, B=>M, Y=>bs4);
+	fa5: full_adder port map(A=>A4, B=>bs4, Cin=>cs4, sum=>S4, carry=>cs5);
+	xor6: XOR_using_NAND port map(A=>B5, B=>M, Y=>bs5);
+	fa6: full_adder port map(A=>A5, B=>bs5, Cin=>cs5, sum=>S5, carry=>Cout);
+
+end struct;
