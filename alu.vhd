@@ -56,7 +56,7 @@ begin
 	imp<=not(ALU_A) or ALU_B;
 	m1: multiplier port map(A=>ALU_A(3 downto 0), B=>ALU_B(3 downto 0), outp=>mul);
 	output_C<=ALU_C;
-	ALU_Z<=not(couts or sub(15) or sub(14) or sub(13) or sub(12) or sub(11) or sub(10) or sub(9) or sub(8) or sub(7) or sub(6) or sub(5) or sub(4) or sub(3) or sub(2) or sub(1) or sub(0));
+	ALU_Z<=not(not(couts) or sub(15) or sub(14) or sub(13) or sub(12) or sub(11) or sub(10) or sub(9) or sub(8) or sub(7) or sub(6) or sub(5) or sub(4) or sub(3) or sub(2) or sub(1) or sub(0));
 	
 end struct;
 	
